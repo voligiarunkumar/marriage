@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.584a78b9.css",
+    "main.js": "/static/js/main.14d8ff32.js",
+    "static/media/eldhosevj.jpg": "/static/media/eldhosevj.a9c200706dbdd7413df7.jpg",
+    "static/media/alina.JPG": "/static/media/alina.ccb459e7f552eba481d3.JPG",
+    "static/media/AlinaAndEldhose1.jpg": "/static/media/AlinaAndEldhose1.45d51425f355e6f73907.jpg",
+    "static/media/whatsapp.jpg": "/static/media/whatsapp.22eec5fae5b043c059ea.jpg",
+    "static/media/frames.png": "/static/media/frames.437301433f099d7c010b.png",
+    "static/media/MAP.png": "/static/media/MAP.c4a7366e56bbd37d7e14.png",
+    "index.html": "/index.html",
+    "main.584a78b9.css.map": "/static/css/main.584a78b9.css.map",
+    "main.14d8ff32.js.map": "/static/js/main.14d8ff32.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.584a78b9.css",
+    "static/js/main.14d8ff32.js"
+  ]
+}
