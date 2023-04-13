@@ -53,7 +53,7 @@ As we enter into the journey of marriage
 
 
 Will exchange wedding vows
-Monday, 30<sup>th</sup> may 2022
+Friday,05<sup>th</sup> may 2022
 at 10 o’clock in the morning location
  </p>
 </div>
