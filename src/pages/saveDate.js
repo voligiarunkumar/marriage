@@ -20,10 +20,10 @@ let saveDates=(<div className='main-div'>
 <div className='undeline'>
 <div className='first-undeline'>
 
-<p ><span style={{fontSize:"35px"}}>30</span> <sup>th</sup> of May 2022 </p>
+<p ><span style={{fontSize:"35px"}}>05</span> <sup>th</sup> of May 2023 </p>
 
 <h2 className='name'>
-<span className='Aslar'>Eldhose </span> 
+<span className='Aslar'>Srikanth yadav</span> 
 <div className='love'>
 <div className='love-first'></div>
 <div className='love-second'></div>
@@ -31,7 +31,7 @@ let saveDates=(<div className='main-div'>
 </div>
 
 
- <span className='Aysha'>Alina</span>
+ <span className='Aysha'>name of birde</span>
  </h2>
 </div>
 <div>

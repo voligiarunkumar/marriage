@@ -11,7 +11,7 @@ const marriageDaySentence=totalDayLeftForMarriage==0?"Today is our marriage":tot
 const classNameForType=canShowRemainingDay? "typingCompleted":"typing"
     return(<div className='head'>
 <div>
-    <img className='profile' src={Eldhose} />
+    <img className='profile'  alt='not found' />
 </div>
 <div className={classNameForType}>
     

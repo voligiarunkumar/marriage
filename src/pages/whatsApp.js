@@ -21,9 +21,9 @@ const alina=(  <div className='set-background-image'>
 
   
   
-<img  onLoad={onLoadF} src={alinaImg}  style={{width:"240px" ,height:"170px"
+<img  onLoad={onLoadF}  alt='image not found' style={{width:"240px" ,height:"170px"
 }}  />
-<p className='whats-app-pargraph' style={{color:"white"}}>Hi, I am Alina</p>
+<p className='whats-app-pargraph' style={{color:"white"}}>Name of bride</p>
 
 
 </div>
@@ -35,28 +35,26 @@ const eldhose=(
   
 <div className='set-background-image'>
 <div className='msg-background-eldhose' id="eldhose">
-<img src={Eldhose}  style={{width:"180px" ,height:"260px"
+<img  alt="image not found" style={{width:"180px" ,height:"260px"
 }}  />
-<p className='whats-app-pargraph' style={{color:"white"}}>Hi, I am Eldhose</p>
+<p className='whats-app-pargraph' style={{color:"white"}}>Name of Groom</p>
 </div>
 </div>
 )
 const we=(
   <div className='set-background-image'>
 <div className='msg-background-we' id="we">
-<img src={AlinaAndEldhose}  style={{width:"200px" ,height:"125px"
+<img  alt="image not found"  style={{width:"200px" ,height:"125px"
 }}  />
 <p className='whats-app-pargraph' style={{color:"white"}}>
 We cherish the roles you play in our lives
 And would be honored if you would join us
 As we enter into the journey of marriage
-I Eldhose VJ
-and
-Alina Mathew
+
+
 Will exchange wedding vows
 Monday, 30<sup>th</sup> may 2022
-at 10 o’clock in the morning
-Malakara Cathalic Church, Narkkilakkad
+at 10 o’clock in the morning location
  </p>
 </div>
 </div>
