@@ -84,7 +84,7 @@ const confetti=(
     <Confetti
         width={375}
         height={1000}
-        numberOfPieces={300}
+        numberOfPieces={400}
         gravity={0.2}
       />
   </div>
