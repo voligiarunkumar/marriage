@@ -139,10 +139,7 @@ document.getElementById("we").scrollIntoView({behavior:"smooth"})
       },10000)
        
 
-      setTimeout(()=>{
-
-        setIsTyping(true)
-        },12000)
+      
 
 
 
@@ -150,7 +147,7 @@ document.getElementById("we").scrollIntoView({behavior:"smooth"})
       setTimeout(()=>{
 
         setIsTyping(true)
-        },16000)
+        },10000)
 
         setTimeout(()=>{
           let array=[alina,eldhose,we,saveDate,map,confetti]
