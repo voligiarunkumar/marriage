@@ -4,10 +4,11 @@ import SaveDate from '../pages/saveDate'
 import GoogleMap from '../pages/googleMap'
 import Head from './Head'
 import Confetti from 'react-confetti'
-import alinaImg from "../picture/alina.JPG"
-import AlinaAndEldhose from "../picture/AlinaAndEldhose1.jpg"
+import brideImg from "../picture/bride.jpeg"
 
-import Eldhose from "../picture/eldhosevj.jpg"
+import bridegroom from "../picture/bridegroom.jpeg"
+
+import srikanthbro from "../picture/srikanthbro.jpeg"
 
 const WhatsApp=(props)=>{
   const [isalina,setAlin]=React.useState(true)
@@ -22,7 +23,7 @@ const alina=(  <div className='set-background-image'>
 
   
   
-<img  onLoad={onLoadF}  alt='image not found' style={{width:"240px" ,height:"170px"
+<img  onLoad={onLoadF}  alt='image not found' src={brideImg} style={{width:"240px" ,height:"250px"
 }}  />
 <p className='whats-app-pargraph' style={{color:"white"}}>Name of bride</p>
 
@@ -36,7 +37,7 @@ const eldhose=(
   
 <div className='set-background-image'>
 <div className='msg-background-eldhose' id="eldhose">
-<img  alt="image not found" style={{width:"180px" ,height:"260px"
+<img  alt="image not found" src={srikanthbro} style={{width:"180px" ,height:"250px"
 }}  />
 <p className='whats-app-pargraph' style={{color:"white"}}>Name of Groom</p>
 </div>
@@ -45,7 +46,7 @@ const eldhose=(
 const we=(
   <div className='set-background-image'>
 <div className='msg-background-we' id="we">
-<img  alt="image not found"  style={{width:"200px" ,height:"125px"
+<img  alt="image not found" src={bridegroom}  style={{width:"250px" ,height:"225px"
 }}  />
 <p className='whats-app-pargraph' style={{color:"white"}}>
 We cherish the roles you play in our lives
@@ -81,9 +82,9 @@ const map=(
 const confetti=(
   <div>
     <Confetti
-        width={1000}
+        width={375}
         height={1000}
-        numberOfPieces={200}
+        numberOfPieces={300}
         gravity={0.2}
       />
   </div>

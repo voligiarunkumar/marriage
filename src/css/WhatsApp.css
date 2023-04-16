@@ -32,7 +32,7 @@ margin-right: 10px;
 .msg-background-we{
 
     
-    width: 200px;
+    width: 250px;
     height: 260px;
     background:#01210b;
 border: 4px solid #01210b;
@@ -40,7 +40,7 @@ border-radius: 8%;
 display: block;
 margin-top: 10px;
 position: relative;
-left: calc(100vw - 230px);
+left: calc(100vw - 300px);
 
 }
 .msg-background-eldhose{
@@ -58,13 +58,14 @@ left: calc(100vw - 220px);
 }
 .msg-background-alina{
     width: 240px;
-    height: 200px;
+    height: 250px;
     background:#01210b;
 border: 4px solid #01210b;
 border-radius: 8%;
 display: block;
 margin-top: 10px;
 padding-top: 60px;
+padding-bottom: 2px;
 position: relative;
 left: calc(100vw - 280px);
 }
