@@ -3,6 +3,7 @@ import "../../src/css/WhatsApp.css"
 import SaveDate from '../pages/saveDate'
 import GoogleMap from '../pages/googleMap'
 import Head from './Head'
+import Confetti from 'react-confetti'
 import alinaImg from "../picture/alina.JPG"
 import AlinaAndEldhose from "../picture/AlinaAndEldhose1.jpg"
 
@@ -77,6 +78,16 @@ const map=(
   </div>
     
 )
+const confetti=(
+  <div>
+    <Confetti
+        width={1000}
+        height={1000}
+        numberOfPieces={200}
+        gravity={0.2}
+      />
+  </div>
+)
 const array=[
  map,saveDate, we, eldhose,alina
 ]  
@@ -141,7 +152,7 @@ document.getElementById("we").scrollIntoView({behavior:"smooth"})
         },16000)
 
         setTimeout(()=>{
-          let array=[alina,eldhose,we,saveDate,map]
+          let array=[alina,eldhose,we,saveDate,map,confetti]
           setDisplayChat(array)
         setIsTyping(false)
         setCanShowRemainingDay(true)

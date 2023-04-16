@@ -12,6 +12,7 @@
     "queue": "^6.0.1",
     "react": "^16.8.6",
     "react-apollo": "^2.5.5",
+    "react-confetti": "^6.1.0",
     "react-dom": "^16.8.4",
     "react-redux": "^6.0.1",
     "react-router-dom": "^5.0.0",
@@ -20,13 +21,11 @@
     "redux-thunk": "^2.3.0"
   },
   "homepage": "https://eldhosewedsalina.com/",
-
-    "scripts": {
-      "start": "react-scripts start",
-      "build": "react-scripts build",
-      "test": "react-scripts test",
-      "eject": "react-scripts eject"
-  
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "browserslist": [
     ">0.2%",
