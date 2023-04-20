@@ -6,9 +6,11 @@ import bridegroom from "../picture/bridegroom.jpeg";
  const Head=(props)=>{
 const {isTyping,canShowRemainingDay}=props
 
-const totalDayLeftForMarriage=totalDay()
-
-const marriageDaySentence=totalDayLeftForMarriage==0?"Today is our marriage":totalDayLeftForMarriage==1?"There is only one day left for our marriage":`There are ${totalDay()} days left for our marriage`
+const today= new Date();
+const nextMonth=new Date(today.getFullYear(),today.getMonth()+1, 5);
+const timeDiff=nextMonth.getTime()- today.getTime();
+const daysDiff=Math.ceil(timeDiff / (1000*3600*24));
+const marriageDaySentence=`There are ${daysDiff} days left for our marriage`
 
 const classNameForType=canShowRemainingDay? "typingCompleted":"typing"
     return(<div className='head'>
