@@ -27,7 +27,7 @@ const WhatsApp = (props) => {
           style={{ width: "240px", height: "250px" }}
         />
         <p className="whats-app-pargraph" style={{ color: "white" }}>
-          Name of bride
+          Hi I am Prashanthi !
         </p>
       </div>
     </div>

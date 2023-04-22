@@ -10,7 +10,7 @@ const today= new Date();
 const nextMonth=new Date(today.getFullYear(),today.getMonth()+1, 5);
 const timeDiff=nextMonth.getTime()- today.getTime();
 const daysDiff=Math.ceil(timeDiff / (1000*3600*24));
-const marriageDaySentence=`There are ${daysDiff} days left for our marriage`
+const marriageDaySentence=daysDiff==0?'Welcome to our Marraige':`There are ${daysDiff} days left for our marriage`
 
 const classNameForType=canShowRemainingDay? "typingCompleted":"typing"
     return(<div className='head'>

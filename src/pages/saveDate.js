@@ -31,7 +31,7 @@ let saveDates=(<div className='main-div'>
 </div>
 
 
- <span className='Aysha'>name of birde</span>
+ <span className='Aysha'>Prashanthi</span>
  </h2>
 </div>
 <div>
