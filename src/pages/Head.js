@@ -7,7 +7,7 @@ import bridegroom from "../picture/bridegroom.jpeg";
 const {isTyping,canShowRemainingDay}=props
 
 const today= new Date();
-const nextMonth=new Date(today.getFullYear(),today.getMonth()+1, 5);
+const nextMonth=new Date(today.getFullYear(),today.getMonth()+0, 5);
 const timeDiff=nextMonth.getTime()- today.getTime();
 const daysDiff=Math.ceil(timeDiff / (1000*3600*24));
 const marriageDaySentence=daysDiff==0?'Welcome to our Marraige':`There are ${daysDiff} days left for our marriage`
